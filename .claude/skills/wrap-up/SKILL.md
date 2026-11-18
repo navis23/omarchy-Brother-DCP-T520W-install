@@ -8,6 +8,10 @@ description: End a Brother DCP-T520W installer work session cleanly before /clea
 Goal: a fresh session (with no memory of this conversation) can continue the work from `docs/handoff.md` alone,
 together with `README.md` and the auto-memory. Write for that reader: concrete, current, no narrative.
 
+This repo usually sits inside the `mbing-toolkit` parent folder as `brother-dcpt520w/`. All paths and commands
+below are relative to this repo's root (two levels above this file): `cd` there first, and commit/push here, never
+in the parent.
+
 ## 1. Collect the facts (don't write from memory; check)
 
 Run these, in parallel where possible:

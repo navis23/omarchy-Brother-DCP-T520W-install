@@ -5,6 +5,10 @@ description: Start a fresh Brother DCP-T520W installer session from where the la
 
 # Resume work
 
+This repo usually sits inside the `mbing-toolkit` parent folder as `brother-dcpt520w/`. All paths and commands
+below are relative to this repo's root (two levels above this file): `cd` there first, and run git here, never in
+the parent.
+
 ## 1. Read (in this order)
 1. `docs/handoff.md`: the source of truth for state and next steps. If it's missing, say so and fall back to
    `git log --oneline -20` and `README.md`.
